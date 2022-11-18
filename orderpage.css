@@ -1,0 +1,82 @@
+.orderPage{
+    width: 90%;
+    height: 100vh;
+    margin:8rem auto 0;
+}
+.title{
+    margin-bottom: 2rem;
+    font-size: 20px;
+    font-weight:bold;
+}
+.user{
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    border: 1px solid black;
+    padding: 10px;
+    font-size: 15px;
+}
+.user img{
+    margin-right: 5px;
+}
+.order{
+    border: 1px solid black;
+    padding: 10px;
+    font-size: 15px;
+}
+.underline{
+    text-decoration: underline;
+}
+.order p span{
+    margin-right: 15px;
+}
+.customer p span{
+    margin-right: 15px;
+}
+
+.date{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 15px;
+    font-weight: bold;
+    border: 1px solid black;
+    padding: 10px;
+}
+.date p span{
+    border: 1px solid black;
+    background: rgb(182, 182, 182);
+}
+
+
+.table_section{
+    width: 100%;
+}
+table{
+    width: 100%;
+    border-collapse: collapse;
+    border: 1px  solid black;
+    padding:15px 20px;
+}
+table, th{
+    border-collapse: collapse;
+    border-bottom: 1px  solid black;
+    padding:15px 20px;
+}
+
+tbody, td{
+    padding: 20px;
+    margin: 20rem 0;
+}
+.action_icon{
+    display: flex;
+    align-items: center;
+}
+.action_icon img{
+    margin-right: 10px;
+    
+}
+.action_icon span{
+    
+    margin-right: 10px;
+}

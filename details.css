@@ -1,0 +1,118 @@
+.customerDetails{
+    width: 90%;
+    /* height: 100vh; */
+    margin:8rem auto 10px;
+    border: 1px solid black;
+    padding: 20px 0;
+}
+.customerDetails h2{
+    margin-left: 10px;
+}
+form input{
+    padding: 10px 20px;
+    color: black;
+    background: rgb(234, 234, 234);
+    margin: 10px;
+}
+.address{
+    display: flex;
+}
+/* ===================Billing-Shipping====================== */
+.billing, .shipping{
+    margin: 0 20px 0 10px;
+    display: flex;
+    flex-direction: column;
+}
+.billing label, .shipping label{
+    margin: 20px 0 10px 0;
+    
+}
+
+textarea{
+    width: 300px;
+    background: rgb(234, 234, 234);
+    resize: vertical;
+    margin-bottom: 20px;
+    padding: 10px;
+}
+.billing_container{
+    border-top: 1px solid black;
+    padding-top: 20px;
+}
+.billing_container h3{
+    margin-left: 10px;
+}
+.billingAddress, .shippingAddress{
+    margin-left: 10px;
+    width: 80%;
+}
+/* ===================Items====================== */
+.items{
+    border-top: 1px solid black;
+}
+.items h2{
+    margin: 20px 0 0 10px;
+}
+.price{
+    border: 1px solid black;
+    padding: 5px 10px;
+    background: gray;
+}
+.salesDetails{
+    margin-top: 25px;
+}
+.salesDetails h2{
+    margin: 20px 0 0 5px;
+}
+
+.details_content{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.submitBtn:hover{
+    border: 1px solid black;
+    background: white;
+}
+/* ===========select==================== */
+select{
+    padding: 10px 20px;
+    margin: 10px;
+    background: rgb(234, 234, 234);
+    border-radius: 2px;
+}
+.selectProduct{
+    margin-bottom: 20px;
+    border-top: 1px solid black;
+    padding: 15px;
+}
+/* ===========SearchInput==================== */
+.searchInput{
+    width: 60%;
+    border-radius: 20px;
+    border: 1px solid black;
+}
+/* ===========orderDetals==================== */
+.orderDetals h3{
+    padding: 30px 0;
+    margin-left: 10px;
+}
+
+/* ===========note_container & submit==================== */
+.submitDetail{
+    border-top: 1px solid black;
+}
+.note_container{
+    padding: 20px;
+}
+#note{
+    width: 40%;
+    border: 1px solid black;
+}
+.submitBtn{
+    margin: 20px 0 8px 45%;
+    border: 1px solid transparent;
+    padding: 10px 30px;
+    background: rgb(156, 154, 154);
+    color: black;
+}
